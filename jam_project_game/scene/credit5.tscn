@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://81ybk5yflevq"]
+
+[ext_resource type="Texture2D" uid="uid://cqyydcjwj2gvq" path="res://Screenshot_2026-05-31-20-41-06-091_com.google.android.googlequicksearchbox.png" id="1_ltyuk"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_g26sx"]
+texture = ExtResource("1_ltyuk")
+
+[node name="Control" type="Control" unique_id=688478539]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=1343987922]
+layout_mode = 0
+offset_right = 1157.0
+offset_bottom = 651.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_g26sx")
+
+[node name="Label" type="Label" parent="Panel" unique_id=1086205360]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.14500001
+anchor_top = 0.141
+anchor_right = 0.65800005
+anchor_bottom = 0.68200004
+offset_left = 55.234985
+offset_top = 16.209
+offset_right = 81.69397
+offset_bottom = 26.017975
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 48
+text = "SPECIAL THANKS TO 
+~DEV vishwakarma
+~GAME DOORA
+~GODOT INDIA
+~GODOT"

@@ -1,0 +1,88 @@
+[gd_scene load_steps=8 format=3 uid="uid://dwv7mdf8rhqbd"]
+
+[ext_resource type="FontFile" uid="uid://bdcu3vykpdo7j" path="res://Achtung Bravo Mac.ttf" id="1_44d08"]
+[ext_resource type="Texture2D" uid="uid://cqyydcjwj2gvq" path="res://Screenshot_2026-05-31-20-41-06-091_com.google.android.googlequicksearchbox.png" id="1_plgab"]
+[ext_resource type="Script" uid="uid://dm41vvtykwah1" path="res://script/button.gd" id="3_pd3di"]
+[ext_resource type="FontFile" uid="uid://dformkf7a3pcf" path="res://gunplay 3d.otf" id="3_utabr"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_plgab"]
+texture = ExtResource("1_plgab")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_e2w4h"]
+bg_color = Color(0.986002, 0.986896, 0.985432, 1)
+border_width_left = 20
+border_width_top = 20
+border_width_right = 20
+border_width_bottom = 20
+border_blend = true
+corner_radius_top_left = 45
+corner_radius_top_right = 45
+corner_radius_bottom_right = 45
+corner_radius_bottom_left = 45
+shadow_size = 15
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_plgab"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -2.0
+offset_top = 7.0
+offset_right = -2.0
+offset_bottom = 6.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_plgab")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.661
+anchor_right = 0.5
+anchor_bottom = 0.661
+offset_left = -262.5
+offset_top = -208.167
+offset_right = 262.5
+offset_bottom = 237.333
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.961968, 0.834324, 0.897908, 1)
+theme_override_constants/outline_size = 7
+theme_override_constants/align_to_largest_stylebox = -2
+theme_override_fonts/font = ExtResource("1_44d08")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_e2w4h")
+text = "start"
+script = ExtResource("3_pd3di")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 87.0
+offset_top = 148.0
+offset_right = 1110.0
+offset_bottom = 267.0
+theme_override_colors/font_color = Color(0.918494, 0.536487, 0.517075, 1)
+theme_override_fonts/font = ExtResource("3_utabr")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxEmpty_plgab")
+text = "Memories of Summer: The Big Tree Village"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="HBoxContainer/Button" to="HBoxContainer/Button" method="_on_pressed"]

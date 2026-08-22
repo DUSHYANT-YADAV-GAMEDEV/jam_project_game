@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://bhp7v06riim8v"]
+
+[ext_resource type="Texture2D" uid="uid://cqyydcjwj2gvq" path="res://Screenshot_2026-05-31-20-41-06-091_com.google.android.googlequicksearchbox.png" id="1_c4tpr"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jap83"]
+texture = ExtResource("1_c4tpr")
+
+[node name="Control" type="Control" unique_id=1979949256]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=840104116]
+layout_mode = 0
+offset_right = 1141.0
+offset_bottom = 648.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_jap83")
+
+[node name="Label" type="Label" parent="Panel" unique_id=1308253834]
+layout_mode = 0
+offset_left = 91.0
+offset_top = 90.0
+offset_right = 744.0
+offset_bottom = 442.0
+theme_override_colors/font_color = Color(0.13083315, 0.13083315, 0.13083315, 1)
+theme_override_font_sizes/font_size = 59
+text = "3D ASSETS                 
+  ~FREE RESOURCES 
+ ~DEV YADAV"

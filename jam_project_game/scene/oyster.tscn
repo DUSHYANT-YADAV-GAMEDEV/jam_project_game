@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://cro8mg5jk8wnc"]
+
+[ext_resource type="Script" uid="uid://cjogfpaaxwuin" path="res://script/oyster.gd" id="1_aj7ms"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vvd3b"]
+albedo_color = Color(1, 3.384, 0, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_fps8e"]
+material = SubResource("StandardMaterial3D_vvd3b")
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_fy1mk"]
+
+[node name="Oyster" type="Area3D"]
+script = ExtResource("1_aj7ms")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_fps8e")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_fy1mk")

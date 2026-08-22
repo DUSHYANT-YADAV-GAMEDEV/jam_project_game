@@ -1,0 +1,29 @@
+[gd_scene load_steps=0 format=3 uid="uid://dfi27lj100j01"]
+
+[node name="CREDITS" type="Control" unique_id=401780971]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=1819909322]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="." unique_id=1344647553]
+layout_mode = 0
+offset_left = 81.0
+offset_top = 63.0
+offset_right = 1007.0
+offset_bottom = 599.0
+theme_override_font_sizes/font_size = 52
+text = "CREDITS 
+
+-PROGRAMING-PRANAV 
+                      -DEV YADAV"

@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bu17jwdqvm4il"
+path="res://.godot/imported/Flag_Small_Blue.obj-a7ef71c27525e859cf8a73379d2d3afe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Flag_Small_Blue.obj-a7ef71c27525e859cf8a73379d2d3afe.mesh"]
+
+source_file="res://assets/Medieval Voxel Assets/Medieval Assets/OBJ_OP/Flags And Banners/Flags/Flag_Small_Blue.obj"
+dest_files=["res://.godot/imported/Flag_Small_Blue.obj-a7ef71c27525e859cf8a73379d2d3afe.mesh", "res://.godot/imported/Flag_Small_Blue.obj-a7ef71c27525e859cf8a73379d2d3afe.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

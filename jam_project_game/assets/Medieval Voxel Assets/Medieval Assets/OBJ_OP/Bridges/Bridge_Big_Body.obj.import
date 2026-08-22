@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bsyxjxq2dd42c"
+path="res://.godot/imported/Bridge_Big_Body.obj-09a7d3a0e72f4a7a0409f7baf8057dfb.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Bridge_Big_Body.obj-09a7d3a0e72f4a7a0409f7baf8057dfb.mesh"]
+
+source_file="res://assets/Medieval Voxel Assets/Medieval Assets/OBJ_OP/Bridges/Bridge_Big_Body.obj"
+dest_files=["res://.godot/imported/Bridge_Big_Body.obj-09a7d3a0e72f4a7a0409f7baf8057dfb.mesh", "res://.godot/imported/Bridge_Big_Body.obj-09a7d3a0e72f4a7a0409f7baf8057dfb.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

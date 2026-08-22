@@ -1,0 +1,74 @@
+[gd_scene load_steps=3 format=3 uid="uid://wdqvs24xa4ln"]
+
+[ext_resource type="Texture2D" uid="uid://cqyydcjwj2gvq" path="res://Screenshot_2026-05-31-20-41-06-091_com.google.android.googlequicksearchbox.png" id="1_bg"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bg"]
+texture = ExtResource("1_bg")
+
+[node name="Credits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_bg")
+
+[node name="LabelProgramming" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = -12.0
+offset_right = 937.04
+offset_bottom = 285.0
+scale = Vector2(0.964081, 0.770099)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 52
+text = "CREDITS
+-PROGRAMING-    PRANAV  -DEV YADAV
+---------------------------------------------------------------------"
+
+[node name="LabelAssets" type="Label" parent="."]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 131.0
+offset_right = 874.0
+offset_bottom = 338.0
+scale = Vector2(1.19685, 1.07149)
+theme_override_colors/font_color = Color(0.13, 0.13, 0.13, 1)
+theme_override_font_sizes/font_size = 38
+text = "3D ASSETS  ~FREE RESOURCES   ~DEV YADAV
+----------------------------------------------------------------------"
+
+[node name="LabelStory" type="Label" parent="."]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 214.0
+offset_right = 1036.0
+offset_bottom = 421.0
+scale = Vector2(0.976278, 0.895525)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 48
+text = "STORY IDEA  ~ PRANAV~ DEV VISHWAKARMA
+----------------------------------------------------------------------"
+
+[node name="LabelSpecialThanks" type="Label" parent="."]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 298.0
+offset_right = 825.0
+offset_bottom = 645.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 48
+text = "SPECIAL THANKS TO 
+  ~DEV VISHWAKARMA
+  ~GAME DOORA
+  ~GODOT INDIA
+  ~GODOT"

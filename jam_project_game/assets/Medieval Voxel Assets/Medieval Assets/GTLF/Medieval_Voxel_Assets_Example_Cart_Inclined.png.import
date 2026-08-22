@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://3p28xg2q5d0x"
+path.s3tc="res://.godot/imported/Medieval_Voxel_Assets_Example_Cart_Inclined.png-0bff858efe7c71f877b7b85566856a43.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "94309a9b4919829e1c138112aa6dff13"
+}
+
+[deps]
+
+source_file="res://assets/Medieval Voxel Assets/Medieval Assets/GTLF/Medieval_Voxel_Assets_Example_Cart_Inclined.png"
+dest_files=["res://.godot/imported/Medieval_Voxel_Assets_Example_Cart_Inclined.png-0bff858efe7c71f877b7b85566856a43.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

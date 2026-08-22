@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://c5fd6noc0cq55"]
+
+[ext_resource type="Texture2D" uid="uid://cqyydcjwj2gvq" path="res://Screenshot_2026-05-31-20-41-06-091_com.google.android.googlequicksearchbox.png" id="1_173k2"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_oyg1s"]
+texture = ExtResource("1_173k2")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ckbl1"]
+bg_color = Color(0.9459799, 0.9159244, 0.9243793, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_md7p3"]
+bg_color = Color(0.7243406, 0.90894383, 0.8844644, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_323um"]
+bg_color = Color(0.343319, 0.6674751, 0.61827946, 1)
+
+[node name="Control" type="Control" unique_id=1411672157]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=46372886]
+layout_mode = 0
+offset_right = 1326.0
+offset_bottom = 638.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_oyg1s")
+
+[node name="Panel" type="Panel" parent="Panel" unique_id=198399168]
+layout_mode = 0
+offset_left = 437.0
+offset_top = 189.0
+offset_right = 856.0
+offset_bottom = 435.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_ckbl1")
+
+[node name="Label" type="Label" parent="." unique_id=601054384]
+layout_mode = 0
+offset_left = 514.0
+offset_top = 260.0
+offset_right = 783.0
+offset_bottom = 373.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 52
+theme_override_styles/normal = SubResource("StyleBoxFlat_md7p3")
+theme_override_styles/focus = SubResource("StyleBoxFlat_323um")
+text = "    music"

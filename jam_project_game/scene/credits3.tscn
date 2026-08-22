@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://b5cwb8u47tkrq"]
+
+[ext_resource type="Texture2D" uid="uid://cqyydcjwj2gvq" path="res://Screenshot_2026-05-31-20-41-06-091_com.google.android.googlequicksearchbox.png" id="1_tub47"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_m2tuv"]
+texture = ExtResource("1_tub47")
+
+[node name="Control" type="Control" unique_id=1557613991]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=1545520531]
+layout_mode = 0
+offset_right = 1147.0
+offset_bottom = 654.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_m2tuv")
+
+[node name="Label" type="Label" parent="Panel" unique_id=1719315666]
+layout_mode = 0
+offset_left = 89.0
+offset_top = 88.0
+offset_right = 803.0
+offset_bottom = 559.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 48
+text = "STORY IDEA 
+                     ~ PRANAV 
+               ~ DEV vishwakarma"

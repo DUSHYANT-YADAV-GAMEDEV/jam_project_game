@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ddni8s3xrcggx"
+path="res://.godot/imported/Entrance_Bridge_MidOpen.obj-3d315fb989e6227725fc6a60e5b7acff.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Entrance_Bridge_MidOpen.obj-3d315fb989e6227725fc6a60e5b7acff.mesh"]
+
+source_file="res://assets/Medieval Voxel Assets/Medieval Assets/OBJ_OP/Others/Entrance_Bridge_MidOpen.obj"
+dest_files=["res://.godot/imported/Entrance_Bridge_MidOpen.obj-3d315fb989e6227725fc6a60e5b7acff.mesh", "res://.godot/imported/Entrance_Bridge_MidOpen.obj-3d315fb989e6227725fc6a60e5b7acff.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

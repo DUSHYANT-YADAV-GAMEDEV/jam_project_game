@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://ca3ow7lhtt0ni"]
+
+[ext_resource type="Script" uid="uid://bvrthmaqj3jt8" path="res://script/zombie.gd" id="1_jeayq"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_cq6p0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jeayq"]
+size = Vector3(1, 1.96332, 1)
+
+[node name="zombie" type="CharacterBody3D"]
+script = ExtResource("1_jeayq")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("CapsuleMesh_cq6p0")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0716248, 0)
+shape = SubResource("BoxShape3D_jeayq")
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="."]
